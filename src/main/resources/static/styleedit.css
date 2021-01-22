@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background:url('http://www.nnyautobody.com/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container {
+        position:absolute;
+        width:50%;
+        background-color: white;
+        left: 25%;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col-sm-12 {
+        /* positions the label text beside the input */
+        text-align: left;
+        height:50%;
+}
+
+
+label, input,select,.col-sm-12 {
+    /* in order to define widths */
+    display: inline-block;
+}
+
+label {
+    width: 50%;
+    /* positions the label text beside the input */
+    text-align: right;
+}
+
+label + input + .col-sm-12 {
+    width: 30%;
+    /* large margin-right to force the next element to the new-line
+       and margin-left to create a gutter between the label and input */
+    margin: 0 30% 0 4%;
+}
+
+/* only the submit button is matched by this selector,
+   but to be sure you could use an id or class for that button */
+input + input + .col-sm-12 {
+    float: right;
+}
+label + select + .col-sm-12 {
+    width: 30%;
+    /* large margin-right to force the next element to the new-line
+       and margin-left to create a gutter between the label and input */
+    margin: 0 30% 0 4%;
+}
+select +  input + .col-sm-12 {
+    float: right;
+}

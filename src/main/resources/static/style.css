@@ -1,0 +1,68 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background:url('http://www.nnyautobody.com/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+ /* Full-width input fields */
+input[type=text] {
+    width: 500;
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.containerl {
+     padding: 16px;
+        position:absolute;
+        width:40%;
+        background-color: white;
+        left: 30%;
+}
+
+h4 {
+    width: 700px;
+    left: 25%;
+    align: center;
+    font-size:50px;
+    background: -webkit-linear-gradient(left, white, black);
+      background: linear-gradient(left, black, white);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    position:relative;
+    margin:80;
+    }
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 0 0 40px;
+    padding: 10;
+}
+
+table {
+	background: #FFFFFF;
+	backface-visibility: hidden;
+	padding:12px 20px;
+}
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+  }
+table, th, td {
+   border: 3px solid black;
+}
